@@ -118,7 +118,7 @@ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 wget -O /etc/yum.repos.d/docker-ce.repo https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
-把软件仓库地址替换为 TUNA:
+把软件仓库地址替换为 SUStech Mirrors:
 
 ```bash
 sudo sed -i 's+download.docker.com+mirrors.sustech.edu.cn/docker-ce+' /etc/yum.repos.d/docker-ce.repo
@@ -137,7 +137,7 @@ sudo yum install docker-ce
 wget -O /etc/yum.repos.d/docker-ce.repo https://download.docker.com/linux/fedora/docker-ce.repo
 ```
 
-把软件仓库地址替换为 TUNA:
+把软件仓库地址替换为 SUStech Mirrors:
 
 ```bash
 sudo sed -i 's+download.docker.com+mirrors.sustech.edu.cn/docker-ce+' /etc/yum.repos.d/docker-ce.repo
